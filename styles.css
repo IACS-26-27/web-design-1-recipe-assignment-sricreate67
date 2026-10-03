@@ -133,8 +133,6 @@ h2 {
   margin-top: 0;
 }
 */
-@import url('https: //fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&family=DM+Sans:wght@400;500&display=swap');
-
 /* these are all the numbers and colors for the website */
 :root {
   --primary-color: #720c0c;
@@ -162,7 +160,7 @@ body {
 h1 {
   font-size: var(--font-size-large);
   color: var(--text-color);
-  text -align: center;
+  text-align: center;
 }
 
 h2 {
@@ -171,9 +169,9 @@ h2 {
   color: var(--text-color);
 }
 
-p{
-  font -family: var(--font-family);
-  fon size: 20px;
+p {
+  font-family: var(--font-family);
+  font-size: 20px;
 }
 
 /* this is the code for the description box */
@@ -188,12 +186,12 @@ p{
 
   border: 2px solid var(--primary-color);
   background-color: #fff8f0;
-  
+
   font-family: var(--font-family);
   font-size: var(--font-size-small);
   line-height: 1.5;
   color: var(--text-color);
-} 
+}
 
 .description-box h3,
 .description-Title {
@@ -240,4 +238,321 @@ p{
 
 /*Ingredients and instructions*/
 
+.ingredients,
+.instructions {
+  color: #7a3d00;
+  font-weight: 400;
+  line-height: 1.7;
+  font-family: var(--font-family);
+}
+
+/* this is the code for the Minimalist style */
+/* the ingredients section */
+
+.ingredients{
+  width : 100%;
+  max-width: 764px;
+  color: var(--text-color);
+}
+
+.ingredients h2{
+  font-family: var(--font-family);
+  font-size: 58px;
+  line-height: 1;
+  font-weight: 400;
+  letter-spacing: -2px;
+
+  text-align: left;
+}
+
+.ingredients {
+  font-size: 28px;
+  line-height: 1.2;
+  font-weight: 400;
+}
+
+.ingredients-note {
+  max-width: 760px;
+  margin: 0 auto;
+
+  color: var(--muted-color);
+  font-family: var(--serif-font);
+  font-size: 25px;
+  line-height: 1.7;
+  font-style: italic;
+  font-weight: 400;
+}
+
+/*fotter*/
+
+footer {
+  clear: both;
+  padding-top: 2rem;
+  text-align: center;
+}
+body {
+  box-sizing: border-box;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem 1.25rem;
+  background-color: #fbf8f3;
+  color: #3b302a;
+}
+
+h1 {
+  margin: 0 0 1.5rem;
+  color: #3b302a;
+  font-size: 2.75rem;
+  font-weight: 400;
+  text-align: left;
+}
+
+h2 {
+  color: #3b302a;
+  text-align: left;
+}
+
+.description-box {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 764px;
+  margin: 0 auto 2rem;
+  padding: 0 0 1.5rem;
+  float: none;
+  border: 0;
+  border-bottom: 1px solid #ded3c5;
+  background-color: transparent;
+}
+
+.description-box h3 {
+  font-size: 1rem;
+  line-height: 1.7;
+}
+
+.recipe-columns {
+  width: 100%;
+  margin: 0 auto;
+  float: none;
+}
+
+.ingredients-column,
+.instructions-column {
+  box-sizing: border-box;
+  width: 100%;
+  margin: 0;
+  padding: 1.25rem 0;
+  float: none;
+  border: 0;
+  border-bottom: 1px solid #ded3c5;
+  background-color: transparent;
+}
+
+.ingredients-title,
+.instructions-title {
+  margin-bottom: 1rem;
+  color: #3b302a;
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.ingredients {
+  margin: 0;
+  padding: 0;
+  color: #3b302a;
+  font-size: 1.1rem;
+  line-height: 1.5;
+  list-style: none;
+}
+
+.ingredients li {
+  padding: 0.85rem 0;
+  border-top: 1px solid #ded3c5;
+}
+
+.ingredients li:last-child {
+  border-bottom: 1px solid #ded3c5;
+}
+
+.instructions {
+  padding-left: 1.5rem;
+  color: #3b302a;
+  font-size: 1.1rem;
+  line-height: 1.7;
+}
+
+.instructions li {
+  padding: 0.25rem 0;
+}
+
+footer {
+  padding: 1.5rem 0 0;
+  color: #82756b;
+}
+
+footer a {
+  color: #3b302a;
+}
+:root {
+  --primary-color: #d58a98;
+  --secondary-color: #241810;
+  --text-color: #f1e7d5;
+  --background-color: #19110c;
+  --line-color: #39291f;
+  --muted-color: #b8a995;
+  --font-family: "DM Sans", sans-serif;
+  --serif-font: "Lora", Georgia, serif;
+}
+
+body {
+  max-width: 1200px;
+  padding: 2rem 30px;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  font-family: var(--serif-font);
+}
+
+h1,
+.ingredients-title,
+.instructions-title,
+footer,
+footer a {
+  font-family: var(--font-family);
+}
+
+h1 {
+  margin-bottom: 1.5rem;
+  color: var(--text-color);
+  font-size: 5rem;
+  font-weight: 700;
+  line-height: 1.05;
+  text-align: left;
+}
+
+h2 {
+  color: var(--muted-color);
+  font-family: var(--font-family);
+  font-size: 1.1rem;
+  font-weight: 500;
+  text-align: left;
+}
+
+.description-box {
+  max-width: none;
+  margin: 0 0 3rem;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: var(--muted-color);
+}
+
+.description-Title {
+  margin-bottom: 0.5rem;
+  color: var(--primary-color);
+  font-family: var(--font-family);
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.description-box h3 {
+  color: var(--muted-color);
+  font-family: var(--serif-font);
+  font-size: 1.35rem;
+  font-weight: 400;
+  line-height: 1.8;
+}
+
+.recipe-columns {
+  width: 100%;
+}
+
+.ingredients-column,
+.instructions-column {
+  margin: 0;
+  padding: 1.5rem 0;
+  border: 0;
+  border-top: 1px solid var(--line-color);
+  background: transparent;
+}
+
+.ingredients-title,
+.instructions-title {
+  color: var(--text-color);
+  font-size: 2.25rem;
+  font-weight: 700;
+}
+
+.ingredients {
+  max-width: none;
+  color: var(--text-color);
+  font-family: var(--serif-font);
+  font-size: 1rem;
+  line-height: 1.8;
+  list-style: none;
+}
+
+.ingredients li {
+  padding: 1rem 0;
+  border-top: 1px solid var(--line-color);
+}
+
+.ingredients li:last-child {
+  border-bottom: 1px solid var(--line-color);
+}
+
+.instructions {
+  padding-left: 3rem;
+  color: var(--text-color);
+  font-family: var(--serif-font);
+  font-size: 1rem;
+  line-height: 1.8;
+}
+
+.instructions li {
+  padding: 1rem 0 1rem 0.5rem;
+  border-bottom: 1px solid var(--line-color);
+}
+
+.instructions li::marker {
+  color: var(--primary-color);
+  font-family: var(--font-family);
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+footer {
+  color: var(--muted-color);
+}
+
+footer a {
+  color: var(--text-color);
+}
+
+.recipe-photo {
+  margin: 0 0 2rem;
+}
+
+.recipe-photo img {
+  display: block;
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+}
+
+@media (max-width: 600px) {
+  body {
+    padding: 1.5rem;
+  }
+
+  h1 {
+    font-size: 3.5rem;
+  }
+
+  .description-box h3 {
+    font-size: 1.1rem;
+  }
+
+  .instructions {
+    padding-left: 2rem;
+  }
+}
 
