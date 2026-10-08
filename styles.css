@@ -83,6 +83,7 @@ li {
   background: var(--panel-background);
   border: 1px solid var(--panel-border);
   border-radius: 0.75rem;
+  box-shadow: 20px 16px 0px 5px rgba(67, 42, 30, 0.08);
 }
 
 .description-box h3 {
@@ -106,7 +107,7 @@ li {
   width: 100%;
   border: 1px solid var(--panel-border);
   border-radius: 0.75rem;
-  box-shadow: 0 4px 14px rgba(67, 42, 30, 0.08);
+  box-shadow: 20px 16px 0px 5px rgba(67, 42, 30, 0.08);
 }
 
 .recipe-columns {
@@ -123,6 +124,7 @@ li {
   background: var(--panel-background);
   border: 1px solid var(--panel-border);
   border-radius: 0.75rem;
+  box-shadow: 20px 16px 0px 5px rgba(67, 42, 30, 0.08);
 }
 
 .ingredients-title,
