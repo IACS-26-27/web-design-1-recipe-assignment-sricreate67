@@ -6,13 +6,56 @@
     <meta name="description" content="My recipe.">
     <title>My Recipe</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Lora:wght@400;700&display=swap" rel="stylesheet">
   </head>
   <body>
-    <!-- Your recipe goes here! -->
+    <header class="page-header">
+      <p class="eyebrow">Italian dessert</p>
+      <h1>My Recipe For Tiramisu</h1>
+      <h2>By: Srikruth Karra</h2>
+    </header>
+
     <main>
-      <h1>My Recipe</h1>      
+      <section class="description-box" aria-labelledby="description-title">
+        <h3 id="description-title">Description</h3>
+        <p>Tiramisu is an Italian dessert made with coffee-soaked ladyfingers layered with creamy mascarpone filling. Invented in the 1960s, it has become a popular dessert worldwide. The name "tiramisu" means "pick me up" in Italian, referring to the energizing effects of the coffee and cocoa powder. It is typically served chilled and often garnished with cocoa powder or chocolate shavings.</p>
+      </section>
+
+      <figure class="recipe-photo">
+        <img src="images/tiramisu.png" alt="A slice of tiramisu on a plate, garnished with cocoa powder">
+      </figure>
+
+      <div class="recipe-columns">
+        <section class="ingredients-column">
+          <h3 class="ingredients-title">Ingredients</h3>
+          <ul class="ingredients">
+            <li>2 cups of plain coffee</li>
+            <li>1/4 cup of spiced rum (optional)</li>
+            <li>16 ounces mascarpone cheese</li>
+            <li>1 cup heavy cream</li>
+            <li>1/4 cup sugar</li>
+            <li>1 package of ladyfingers</li>
+            <li>Cocoa powder for dusting</li>
+          </ul>
+        </section>
+
+        <section class="instructions-column">
+          <h3 class="instructions-title">Instructions</h3>
+          <ol class="instructions">
+            <li>Make the coffee and let it cool.</li>
+            <li>Whip the cream with sugar until stiff peaks form.</li>
+            <li>Mix the mascarpone with the rum.</li>
+            <li>Fold the whipped cream into the mascarpone mixture.</li>
+            <li>Quickly dip ladyfingers in the coffee mixture and layer them in a dish.</li>
+            <li>Spread half the mascarpone mixture over the first layer.</li>
+            <li>Add another layer of dipped ladyfingers and the rest of the mascarpone mixture.</li>
+            <li>Top with cocoa powder and chill before serving.</li>
+          </ol>
+        </section>
+      </div>
     </main>
-    <footer>      
+
+    <footer>
       <small>
         <a href="citations.html">Sources &amp; Citations</a>
       </small>

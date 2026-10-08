@@ -1,6 +1,188 @@
-/* Your styles go here! */
-h1 {
-  /* Demo style -- remove me and write your own */
-  font-size: 48px;
-  color: purple;
+
+:root {
+  --page-background: #f7f0e5;
+  --panel-background: #fffaf1;
+  --panel-border: #cfae84;
+  --heading-color: #432a1e;
+  --text-color: #2d2019;
+  --accent-color: #8b3f31;
+  --muted-color: #695d53;
+  --font-body: "DM Sans", sans-serif;
+  --font-heading: "Lora", Georgia, serif;
 }
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--page-background);
+  color: var(--text-color);
+  font-family: var(--font-body);
+  line-height: 1.7;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.page-header,
+main,
+footer {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 1.25rem;
+}
+
+.eyebrow {
+  margin: 0 0 0.5rem;
+  color: var(--accent-color);
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.18rem;
+  text-transform: uppercase;
+}
+
+h1,
+h2,
+h3 {
+  margin-top: 0;
+}
+
+h1 {
+  margin-bottom: 0.5rem;
+  color: var(--heading-color);
+  font-family: var(--font-heading);
+  font-size: clamp(2.5rem, 5vw, 4.25rem);
+  line-height: 1.1;
+}
+
+h2 {
+  margin-bottom: 1.5rem;
+  color: var(--muted-color);
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+h3 {
+  color: var(--heading-color);
+  font-family: var(--font-heading);
+  font-size: 1.9rem;
+}
+
+p,
+li {
+  font-size: 1.05rem;
+}
+
+.description-box {
+  margin: 1.5rem auto 2rem;
+  padding: 1.5rem;
+  background: var(--panel-background);
+  border: 1px solid var(--panel-border);
+  border-radius: 0.75rem;
+  box-shadow: 20px 16px 0px 5px rgba(67, 42, 30, 0.08);
+}
+
+.description-box h3 {
+  margin-bottom: 0.75rem;
+  font-size: 1.7rem;
+}
+
+.description-box p {
+  margin: 0;
+  color: var(--text-color);
+}
+
+.recipe-photo {
+  margin: 0 auto 2rem;
+  max-width: 760px;
+  text-align: center;
+}
+
+.recipe-photo img {
+  display: block;
+  width: 100%;
+  border: 1px solid var(--panel-border);
+  border-radius: 0.75rem;
+  box-shadow: 20px 16px 0px 5px rgba(67, 42, 30, 0.08);
+}
+
+.recipe-columns {
+  overflow: hidden;
+  margin-bottom: 2rem;
+}
+
+.ingredients-column,
+.instructions-column {
+  float: left;
+  width: 48%;
+  margin: 0 1%;
+  padding: 1.5rem;
+  background: var(--panel-background);
+  border: 1px solid var(--panel-border);
+  border-radius: 0.75rem;
+  box-shadow: 20px 16px 0px 5px rgba(67, 42, 30, 0.08);
+}
+
+.ingredients-title,
+.instructions-title {
+  margin-bottom: 1rem;
+  color: var(--heading-color);
+  font-size: 2rem;
+}
+
+.ingredients,
+.instructions {
+  margin: 0;
+  padding-left: 1.2rem;
+  line-height: 1.8;
+}
+
+.ingredients li,
+.instructions li {
+  margin-bottom: 0.6rem;
+}
+
+.ingredients li::marker,
+.instructions li::marker {
+  color: var(--accent-color);
+}
+
+footer {
+  clear: both;  
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+  text-align: center;
+}
+
+footer a {
+  color: var(--heading-color);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+footer a:hover,
+footer a:focus {
+  text-decoration: underline;
+}
+
+@media (max-width: 700px) {
+  .ingredients-column,
+  .instructions-column {
+    float: none;
+    width: 100%;
+    margin: 0 0 1rem;
+  }
+
+  .page-header,
+  main,
+  footer {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
+ 

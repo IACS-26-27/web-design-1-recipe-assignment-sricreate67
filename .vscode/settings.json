@@ -42,5 +42,8 @@
   },
   "workbench.welcomePage.walkthroughs.openOnInstall": false,
   "workbench.startupEditor": "readme",
-  "files.insertFinalNewline": true
+  "files.insertFinalNewline": true,
+  "githubPullRequests.ignoredPullRequestBranches": [
+    "main"
+  ]
 }
